@@ -1,0 +1,142 @@
+/* style.css */
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+/* Headings */
+h1, h2, h3 {
+    text-align: center;
+    color: darkslategray;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+    font-weight: bold;
+}
+a:hover {
+    color: green;
+}
+
+/* Forms */
+form {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px gray;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+/* Buttons */
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkgreen;
+}
+
+/* Tables */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 2px 6px gray;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+/* Navigation bar */
+nav {
+    background-color: darkslategray;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: green;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: green;
+}
